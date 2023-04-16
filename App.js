@@ -56,7 +56,8 @@ export default function App() {
     <Animated.View style={[styles.container, {opacity: fadeInAnim,}]}>
       <View style={{
         flex: 1,
-        justifyContent: 'center'
+        justifyContent: 'flex-end',
+        marginBottom: 20
       }}>
         <Text style={[styles.text,
           {
@@ -120,7 +121,7 @@ const styles = StyleSheet.create({
   },
 
   startButton: {
-    marginTop: 50,
+    marginTop: 60,
     borderRadius: 10,
     padding: 8,
   },
